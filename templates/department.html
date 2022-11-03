@@ -2,7 +2,14 @@
 
 {% block title %}Department page{% endblock title %}
 {% block content  %}
-<h1>this is Department page</h1>
+<h1 class="text-center pt-3">Our Department</h1>
+<hr>
+{% for d in dept %}
+<div class="mx-auto bg-success text-white w-50 text-center p-3 my-5">
+    <h1>{{d.dep_name}}</h1>
+    <p>{{d.dep_description}}</p>
+</div>
+{% endfor %}
     
 {% endblock %}
    
