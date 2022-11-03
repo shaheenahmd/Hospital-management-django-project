@@ -1,8 +1,14 @@
 {% extends 'base.html' %}
 
-{% block title %}Doctors page{% endblock title %}
-{% block content  %}
-<h1>this is doctors page</h1>
+{% block title %} Doctors {% endblock title %}
+
+{% block content %}
+<h1>Doctors page</h1>
+<div class="container">
+    {% for d in doctors %}
+    <h1>{{d.doc_name}}</h1>
+    {% endfor %}
+</div>
     
 {% endblock %}
    

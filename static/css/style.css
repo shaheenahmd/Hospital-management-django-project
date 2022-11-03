@@ -2,3 +2,8 @@ li:hover{
     background-color: rgb(14, 138, 240);
     border-radius: 10px;
 }
+.dephead{
+    padding-top: 5rem;
+    margin-top: 3rem;
+    color: brown;
+}
