@@ -1,9 +1,14 @@
 li:hover{
-    background-color: rgb(14, 138, 240);
-    border-radius: 10px;
+    background-color: rgb(96, 155, 243);
+    border-radius: 5px;
+    transition: 0.5s ease;
 }
-.dephead{
-    padding-top: 5rem;
-    margin-top: 3rem;
-    color: brown;
+.carousel-img{
+    height: 650px;
+    width: 100%;
+    
+
+}
+.carousel-item{
+    position: relative;
 }

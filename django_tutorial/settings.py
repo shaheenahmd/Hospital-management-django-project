@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -118,7 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS= [os.path.join(BASE_DIR,'static')]
+STATICFILES_DIRS= [os.path.join(BASE_DIR, 'static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
@@ -127,3 +128,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = BASE_DIR /'uploads'
 MEDIA_URL = '/media/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
