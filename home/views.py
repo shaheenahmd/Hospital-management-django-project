@@ -14,8 +14,8 @@ def about(request):
 def booking(request):
      return render(request, 'booking.html')
 
-def doctors(request):
-    dict_docs={ 'doctors':doctors.objects.all() }
+def Doctors(request):
+    dict_docs = {'doctors': doctors.objects.all }
     return render(request, 'doctors.html', dict_docs)
     
 
