@@ -2,8 +2,30 @@
 {% extends 'base.html' %}
 
 {% block title %}About{% endblock title %}
+
 {% block content  %}
-<h1>this is about page</h1>
+
+{% load static %}
+
+<div class="container abt mt-5 pt-5">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <h6>About Us</h6>
+            <h1>Why You Should Trust Us? Get Know About Us!</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+
+                Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+            <ul>
+                <li>Quality health care</li>
+                <li>Only Qualified Doctors</li>
+                <li>Medical Research Professionals</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-sm-12 mb-5">
+            <img src="{% static '/images/doc1.jpg' %}" class="img-fluid " alt="">
+        </div>
+    </div>
+</div>
     
 {% endblock %}
    
