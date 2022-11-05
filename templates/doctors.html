@@ -5,9 +5,9 @@
 {% block content %}
 <h1 class="text-center mt-5 pt-4">Our Doctors </h1>
 <hr>
-<div class="container text-center bg-light">
+<div class="container text-center mb-5 bg-light">
 {% for d in doctors %}
-<div class="card text-center mx-3 my-3" style="width: 18rem; display: inline-block;">
+<div class="card text-center mx-3 my-2 mb-5" style="width: 18rem; display:inline-block;">
     <img src="{{d.doc_image.url}}" class="card-img-top doc-img" alt="...">
     <div class="card-body">
       <h5 class="card-title">Dr. {{d.doc_name}}</h5>
